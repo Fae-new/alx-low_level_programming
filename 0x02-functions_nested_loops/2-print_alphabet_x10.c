@@ -1,10 +1,13 @@
 #include "main.h"
 #include <stdio.h>
+
 /**
- * main - Entry point
+ * print_alphabet_x10 - Prints the English alphabet ten times.
  *
- * Return: Always 0 (Success)
+ * This function prints the letters from 'a' to 'z' in the English alphabet
+ * ten times, separated by spaces.
  */
+
 void print_alphabet_x10(void)
 {
 int i;
