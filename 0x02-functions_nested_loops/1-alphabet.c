@@ -1,10 +1,13 @@
 #include "main.h"
 #include <stdio.h>
+
 /**
- * main - Entry point
+ * print_alphabet - Prints the English alphabet from 'a' to 'z'.
  *
- * Return: Always 0 (Success)
+ * This function prints the English alphabet from 'a' to 'z', one letter per
+ * line.
  */
+
 void print_alphabet(void)
 {
 int i;
