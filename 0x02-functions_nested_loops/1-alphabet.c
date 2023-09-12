@@ -11,9 +11,9 @@ int i;
 
 for (i = 97; i < 123; i++)
 {
-_putchar(i);
+putchar(i);
 }
 
-_putchar("\n");
+putchar("\n");
 return (0);
 }
