@@ -1,3 +1,5 @@
+#include <stdio.h>
+
 /**
  * jack_bauer - Print every minute of a 24-hour day.
  *
