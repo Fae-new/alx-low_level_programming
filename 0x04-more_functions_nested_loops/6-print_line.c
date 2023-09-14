@@ -1,3 +1,5 @@
+#include "main.h"
+
 /**
  * print_line - Prints a horizontal line of a specified length.
  *
