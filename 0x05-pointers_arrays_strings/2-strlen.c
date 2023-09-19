@@ -8,7 +8,8 @@
  *
  * Return: The length of the string (an integer).
  */
-int _strlen(char *s) {
+int _strlen(char *s) 
+{
 
 int length = 0;
 
@@ -18,6 +19,6 @@ length++;
 s++;
 }
 
-return length;
+return (length);
 }
 
