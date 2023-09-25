@@ -1,3 +1,5 @@
+
+#include <stddef.h>
 /**
  * _strpbrk - Find the first character from 'accept' in 's'.
  *
