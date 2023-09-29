@@ -18,6 +18,6 @@ s++;
 if (*s != '\0')
 _puts_recursion(s);
 
-putchar('\n')
+putchar('\n');
 
 }
