@@ -20,6 +20,6 @@ _puts_recursion(s);
 
 else
 {
-putchaar('\n');
+putchar('\n');
 }
 }
