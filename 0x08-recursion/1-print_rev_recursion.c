@@ -1,3 +1,5 @@
+include "main.h"
+
 /**
  * _print_rev_recursion - Recursively prints a string in reverse.
  *
@@ -8,6 +10,6 @@ if (*s == '\0')
 return;
 
 _print_rev_recursion(s + 1);
-putchar(*s);
+_putchar(*s);
 }
 
