@@ -5,6 +5,8 @@
  * Return: 0 - success.
  */
 
+#include <stdio.h>
+
 int main(int argc, char **argv __attribute__((unused)))
 {
 
