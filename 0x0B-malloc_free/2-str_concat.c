@@ -49,5 +49,5 @@ s2++;
 ptr++;
 }
 *ptr = '\0';
-return (ptr - (i + j + 1));
+return (ptr - (i + j));
 }
