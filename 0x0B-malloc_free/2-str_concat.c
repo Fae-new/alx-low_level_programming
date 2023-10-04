@@ -20,6 +20,8 @@ char *ptr;
 
 char *start1 = s1;
 char *start2 = s2;
+if (s1 == NULL || s2 == NULL)
+return (NULL);
 while (*s1 != '\0')
 {
 i++;
@@ -33,9 +35,7 @@ s2++;
 
 s1 = start1;
 s2 = start2;
-
 ptr = malloc(i + j + 1);
-
 if (ptr == NULL)
 return (NULL);
 while (*s1 != '\0')
