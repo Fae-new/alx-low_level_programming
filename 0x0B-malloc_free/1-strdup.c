@@ -13,14 +13,18 @@
 char *_strdup(char *str)
 {
 
-if (str == NULL)
-return (NULL);
+
 
 int i = 0;
 
 char *start = str;
 
 char *ptr;
+
+
+if (str == NULL)
+return (NULL);
+
 
 while (*str != '\0')
 {
