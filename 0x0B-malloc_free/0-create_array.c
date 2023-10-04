@@ -26,7 +26,7 @@ return (NULL);
 
 array = malloc(size);
 
-if(array == NULL)
+if (array == NULL)
 return (NULL);
 
 for (i = 0; i < size; i++)
