@@ -42,5 +42,5 @@ str++;
 
 *ptr = '\0';
 
-return (ptr - (i + 1));
+return (ptr - i);
 }
