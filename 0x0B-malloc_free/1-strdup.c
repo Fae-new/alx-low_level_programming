@@ -1,3 +1,8 @@
+
+#include <stdlib.h>
+#include <stdio.h>
+#include <ctype.h>
+
 /**
  * _strdup - Duplicates a string in a newly allocated memory.
  * @str: Pointer to the input string.

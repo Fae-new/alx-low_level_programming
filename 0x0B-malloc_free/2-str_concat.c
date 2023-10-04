@@ -1,3 +1,7 @@
+#include <stdlib.h>
+#include <stdio.h>
+#include <ctype.h>
+
 /**
  * str_concat - Concatenates two strings.
  * @s1: First input string.

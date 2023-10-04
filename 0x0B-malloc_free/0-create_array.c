@@ -1,3 +1,7 @@
+#include <stdlib.h>
+#include <stdio.h>
+#include <ctype.h>
+
 /**
  * create_array - Allocate and initialize a character array.
  * @size: Size of the array.
