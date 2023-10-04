@@ -13,6 +13,9 @@
 char *_strdup(char *str)
 {
 
+if (str == NULL)
+return (NULL);
+
 int i = 0;
 
 char *start = str;
