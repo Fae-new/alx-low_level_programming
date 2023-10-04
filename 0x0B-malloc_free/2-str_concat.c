@@ -16,6 +16,8 @@ int i = 0;
 
 int j = 0;
 
+char *ptr;
+
 char *start1 = s1;
 char *start2 = s2;
 while (*s1 != '\0')
@@ -32,7 +34,7 @@ s2++;
 s1 = start1;
 s2 = start2;
 
-char *ptr = malloc(i + j + 1);
+ptr = malloc(i + j + 1);
 
 if (ptr == NULL)
 return (NULL);
