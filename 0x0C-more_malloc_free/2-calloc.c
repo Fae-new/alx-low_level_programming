@@ -11,7 +11,6 @@
  * Description: Allocates memory for an array of @nmemb elements
  * Return: Pointer to allocated and initialized memory, or NULL on failure.
  */
-void *_calloc(unsigned int nmemb, unsigned int size);
 
 
 void *_calloc(unsigned int nmemb, unsigned int size)
