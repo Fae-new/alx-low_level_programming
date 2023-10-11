@@ -1,5 +1,13 @@
 #ifndef _DOG_H
 #define _DOG_H
+
+
+/**
+ * dog_t - Typedef for struct dog
+ */
+
+typedef struct dog dog_t;
+
 /**
  * struct dog - Represents information about a dog.
  * @name: Pointer to the dog's name.
@@ -8,12 +16,6 @@
  *
  * Description: This structure contains information about a dog.
  */
-
-/**
- * dog_t - Typedef for struct dog
- */
-
-typedef struct dog dog_t;
 
 struct dog
 {
