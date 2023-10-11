@@ -1,1 +1,1 @@
-this is a readme for oxob malloc and free
+It aims to learn about structures and typedef in C language.
